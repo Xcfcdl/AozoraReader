@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>878</width>
+    <height>545</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="statusTip">
+   <string>就绪</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_7">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="maximumSize">
+             <size>
+              <width>60</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/logo/sources/logo2.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="font">
+               <font>
+                <family>A-OTF TakaHand Std H</family>
+                <pointsize>16</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;青空文庫読取り&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="font">
+               <font>
+                <family>A-OTF TakaHand Std H</family>
+                <pointsize>16</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;AOZORABUNNKO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>458</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QPushButton" name="Mini_button_2">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="soucers.qrc">
+              <normaloff>:/min/sources/menu.png</normaloff>:/min/sources/menu.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Mini_button">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="soucers.qrc">
+              <normaloff>:/min/sources/mini.jpg</normaloff>:/min/sources/mini.jpg</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="max_button">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="soucers.qrc">
+              <normaloff>:/min/sources/641811830ab31eca1fb5d5f18fab69ab.png</normaloff>:/min/sources/641811830ab31eca1fb5d5f18fab69ab.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="quit_button">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="soucers.qrc">
+              <normaloff>:/min/sources/quit.png</normaloff>:/min/sources/quit.png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QTreeWidget" name="treeWidget">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ｗっくぇ&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <column>
+           <property name="text">
+            <string>排序</string>
+           </property>
+          </column>
+          <item>
+           <property name="text">
+            <string>作者序</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>あ</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>あつかっきあつかっき</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>New Item</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>New Item</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>New Item</string>
+             </property>
+            </item>
+           </item>
+           <item>
+            <property name="text">
+             <string>い</string>
+            </property>
+           </item>
+          </item>
+          <item>
+           <property name="text">
+            <string>作品序</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>あ</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>あほ</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>New Item</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>New Item</string>
+             </property>
+            </item>
+           </item>
+           <item>
+            <property name="text">
+             <string>い</string>
+            </property>
+           </item>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QTextBrowser" name="label_view">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <property name="spacing">
+             <number>6</number>
+            </property>
+            <item>
+             <widget class="QTextEdit" name="edit_seek">
+              <property name="maximumSize">
+               <size>
+                <width>161</width>
+                <height>25</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="button_seek">
+              <property name="text">
+               <string>搜索</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>146</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <property name="spacing">
+               <number>1</number>
+              </property>
+              <property name="sizeConstraint">
+               <enum>QLayout::SetNoConstraint</enum>
+              </property>
+              <item>
+               <widget class="QPushButton" name="button_mainPage">
+                <property name="text">
+                 <string>主页</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="button_lastPage">
+                <property name="text">
+                 <string>上一页</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="button_nextPage">
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="text">
+                 <string>下一页</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="soucers.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Mini_button</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>789</x>
+     <y>43</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>662</x>
+     <y>37</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>max_button</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showFullScreen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>804</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>720</x>
+     <y>6</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quit_button</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>842</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>849</x>
+     <y>10</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

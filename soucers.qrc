@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>sources/logo.png</file>
+    <file>sources/logo2.png</file>
+  </qresource>
+  <qresource prefix="min">
+    <file>sources/menu.png</file>
+    <file>sources/641811830ab31eca1fb5d5f18fab69ab.png</file>
+    <file>sources/quit.png</file>
+    <file>sources/mini.jpg</file>
+  </qresource>
+</RCC>
